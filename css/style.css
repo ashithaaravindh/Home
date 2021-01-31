@@ -323,7 +323,7 @@ li > a:only-child:after { content: ''; }
   position: fixed;
   top: 0px;
   bottom: 0;
-  left: 0;
+  left: 0px;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 0ms;
@@ -339,9 +339,9 @@ li > a:only-child:after { content: ''; }
 .popup {
     background: #fff;
     border-radius: 5px;
-    max-width: 500px;
+	max-width: 500px;
     position: relative;
-    margin: 8em auto;
+	margin: 8em auto;
 	padding: 3em 1em;
 }
 .popup p{
@@ -397,7 +397,7 @@ li > a:only-child:after { content: ''; }
     min-height: 770px;
 }
 .w3layouts_banner_margin {
-    padding: 17em 0em 0em;
+    padding: 12em 0em 0em;
 }
 .image_margin {
     margin-top: 8em;
@@ -406,14 +406,15 @@ li > a:only-child:after { content: ''; }
     font-size: 20px;
     color: #fff;
     text-transform: capitalize;
-    letter-spacing: 1px;
+	letter-spacing: 1px;
+	margin-bottom: 45px;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 .w3pvt_banner_info h2{
-    font-size: 65px;
+    font-size: 40px;
     display: block;
     color: #30c39e;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 3px;
     margin-bottom: .2em;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -424,7 +425,8 @@ li > a:only-child:after { content: ''; }
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 25px;
+	margin-bottom: 25px;
+	margin-top: 100px;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 .w3pvt_banner_info p{
@@ -444,7 +446,8 @@ li > a:only-child:after { content: ''; }
     font-size: 15px;
     letter-spacing: 1px;
     display: inline-block;
-    margin-top: 1.5em;
+	margin-top: 1.5em;
+	margin-right: 15px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -954,7 +957,7 @@ footer {
 		padding: 14em 0em 0em;
 	}
 	.w3pvt_banner_info h2 {
-		font-size: 58px;
+		font-size: 40px;
 		letter-spacing: 2px;
 	}
 	.about-grids h4 {
@@ -1134,7 +1137,7 @@ footer {
 		width: 100%;
 	}
 	.w3pvt_banner_info h2 {
-		font-size: 45px;
+		font-size:30px;
 		letter-spacing: 1px;
 	}
 	h5.w3pvt-title {
